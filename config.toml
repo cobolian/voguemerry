@@ -1,0 +1,53 @@
+title = "Vogue Merry"
+baseURL = "https://www.voguemerry.fr/"
+tags = ["voyage", "tour du monde", "voile", "blog"]
+languageCode = "fr_FR"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "voguemerry"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "Un tour du Monde en famille"
+    author = "Nicolas Trossat"
+    description = "Suivez notre tour du Monde à la voile en famille !"
+    logoBig = "/images/voguemerry.jpg"
+    logoSmall = "/images/osprey-logo.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/osprey.png"
+    twitter = "ntrossat"
+    linkedin = ""
+    github = "ntrossat"
+    email = "contact@voguemerry.fr"
+    googleTagManger = ""
+    highlightJS = true
+    copyright = true
+    credit = false
+    customCSS = true
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+
+[[menu.main]]
+    name = "Actualité"
+    url  = "/#blog"
+    weight = 1
+[[menu.main]]
+    name = "Cartographie"
+    url  = "/#cartographie"
+    weight = 2
+[[menu.main]]
+    name = "L'équipage"
+    url  = "/#equipage"
+    weight = 3
+[[menu.main]]
+    name = "Le projet"
+    url  = "/#projet"
+    weight = 4
+[[menu.main]]
+    name = "Nous suivre"
+    url  = "/#followus"
+    weight = 5

@@ -1,0 +1,36 @@
+<section class="blog" id="blog">
+    <div class="container">
+        <div class="row center-xs">
+            <div class="col-xs-12"><h1>Actualité</h1></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 posts-list">
+                {{ range first 3 (where .Data.Pages "Section" "blog") }}
+                    <article>
+                        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                        <div class=sub-header>
+                          Publié par {{ .Params.author }} le {{ .Date.Format (.Site.Params.dateform | default "02/01/2006") }}
+                        </div>
+                        {{ if .Params.image }}
+                          <img src="{{ .Params.image }}"/>
+                        {{ end }}
+                        {{ if .Params.video }}
+                          <div class="youtube">
+                            <iframe src="{{ .Params.video }}" frameborder="0" allowfullscreen></iframe>
+                          </div>
+                        {{ end }}
+
+                        <p>{{ .Summary }}</p>
+
+                        {{ if .Truncated }}
+                          <p><a href="{{ .RelPermalink }}">Lire la suite…</a></p>
+                        {{ end }}
+                    </article>
+                {{ end }}
+            </div>
+        </div>
+        <div class="row center-xs">
+            <div class="col-xs-12"><h3><a href="{{ .Site.BaseURL }}/blog/">Voir tous les articles</a></h3></div>
+        </div>
+    </div>
+</section>

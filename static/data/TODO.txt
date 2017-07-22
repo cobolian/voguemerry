@@ -1,0 +1,4 @@
+Ajouter des photos sur l'équipage et le projet
+Remplacer Disqus par https://staticman.net/
+Publier par mail
+Refaire la Cartographie

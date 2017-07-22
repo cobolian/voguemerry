@@ -1,0 +1,27 @@
+<section class="disqus">
+    <div class="container middle-xs">
+        <div class="row center-xs">
+            <div class="col-xs-12"><h3>Commentaires</h3></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 middle-xs">
+              <p>Vous pouvez nous laisser un commentaire, soit en vous connectant,
+                soit de façon anonyme : il faut mettre un nom en-dessous de votre commentaire, puis cocher la case "I'd rather post as a guest" avant de valider votre commentaire<p>
+            </div>
+        </div>
+    </div>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        (function() {
+            // Don't ever inject Disqus on localhost--it creates unwanted
+            // discussions from 'localhost:1313' on your Disqus account...
+            if (window.location.hostname == "localhost")
+                return;
+            var disqus_shortname = '{{ .Site.DisqusShortname }}';
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view comments powered by <a href="http://disqus.com/?ref_noscript">Disqus</a>.</noscript>
+</section>
