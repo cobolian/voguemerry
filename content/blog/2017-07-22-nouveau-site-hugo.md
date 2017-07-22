@@ -43,6 +43,8 @@ Hugo est fourni avec [Disqus](https://disqus.com/) pour gérer les commentaires.
 
 Pour pouvoir gérer ceux qui veulent s'abonner par mail, j'utilise [MailChimp](https://mailchimp.com/). Je l'utilise pour le boulot, et même si je préfererais dans l'absolu gérer les listes moi-même en passant par [Sengrid](https://sendgrid.com/), faut avouer que l'installation est hyper simple. Faudra que je trouve un moyen de diffuser ensuite des campagnes automatiquement.
 
+J'utilise également [IFTTT](https://ifttt.com/) pour automatiser la publication sur Twitter et Facebook, mais je ne suis pas sur du résultat pour le moment, je vais voir si on ne peut pas faire mieux !
+
 
 Pour la migration de l'existant depuis Wordpress, j'ai utilisé le module de [SchumacherFM](https://github.com/SchumacherFM/wordpress-to-hugo-exporter). On retrouve les développeurs Magento de partout ^^ Enfin bref, son module exporte l'existant en markdown tout prêt pour Hugo. J'ai eu des gros soucis avec les images, mais c'est surtout lié aux différentes migration et changement de NDD que j'ai fait entre Worpress. Ca me semble le point le plus critique de la migration. A noter que le module est relativement simple et qu'il peut être intéressant de le patcher directement pour nettoyer les images à la volée.
 
