@@ -31,7 +31,7 @@ Et je vais refaire également une carte plus jolie pour nous positionner. L'actu
 
 Comme il y a pas mal de développeurs qui passent par ici, voici plus d'infos sur ce que j'ai fait ;)
 
-Je voulais mettre en place un workflow plus moderne qu'avec wordpress. J'ai découvert l'univers des sites statiques, avec son hébergeur emblématique Netlify, Node.js et NMP, etc... Je savais que j'avais pris du retard sur ma veille ces dernières années, ça a été l'occasion de me rattraper !
+Je voulais mettre en place un workflow plus moderne qu'avec wordpress. J'ai découvert l'univers des sites statiques, avec son hébergeur emblématique Netlify, Node.js et NPM, etc... Je savais que j'avais pris du retard sur ma veille ces dernières années, ça a été l'occasion de me rattraper !
 
 Pour l'IDE, je suis passé **de PHPStrom à [Atom](https://atom.io/)**. J'avais envie de voir autre chose que du PHP, et d'avoir un environnement connecté à Github et tout ce qui va avec (Déploiement auto entre autre). Je ne l'ai pas encore bien exploré mais la prise en main est très facile.
 
